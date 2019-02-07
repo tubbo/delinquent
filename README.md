@@ -1,6 +1,6 @@
 # delinquent
 
-A port of [not-paid.js][] to NPM. Wraps the logic in a function that you
+A port of @kleampa's [not-paid.js][] to NPM. Wraps the logic in a function that you
 can call anywhere.
 
 ## Usage
@@ -34,3 +34,4 @@ npm install delinquent --save
 ```
 
 [not-paid.js]: https://github.com/kleampa/not-paid
+[kleampa]: https://github.com/kleampa
