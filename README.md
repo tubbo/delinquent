@@ -12,6 +12,17 @@ const due_date = new Date('2017-02-27');
 delinquent(due_date);
 ```
 
+You can optionally pass a number of days before the site is fully
+transparent. The default is `60`.
+
+```javascript
+const delinquent = require('delinquent');
+const due_date = new Date('2017-02-27');
+const deadline = 90
+
+delinquent(due_date, deadline);
+```
+
 ## Installation
 
 This package is distributed over NPM!
