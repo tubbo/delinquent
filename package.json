@@ -1,0 +1,15 @@
+{
+  "name": "delinquent",
+  "version": "1.0.0",
+  "description": "Client did not pay? Add opacity to the body tag and increase it every day until their site completely fades away. A port of not-paid.js to NPM",
+  "main": "index.js",
+  "repository": "https://github.com/tubbo/delinquent.git",
+  "author": "Tom Scott",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
